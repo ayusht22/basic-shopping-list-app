@@ -1,0 +1,108 @@
+.body{
+ 
+background-color: aquamarine;
+}
+.App {
+  text-align: center;
+  align-items: center;
+
+}
+.App h1{
+  text-shadow:5px 5px 10px rgb(109, 107, 107);
+}
+
+.container{
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aliceblue;
+  margin: auto;
+}
+
+.todo input{
+  border-radius: 3px;
+  width: 300px;
+  height: 25px;
+  border:none;
+  
+}
+.todo button{
+  border-radius: 4px;
+  border:none;
+  height: 25px;
+  width: 50px;
+  text-transform: capitalize;
+  background-color:  #a5d5f8;
+}
+
+.task{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.contain{
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color:#b2d8f1;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contain:hover{
+ 
+  transform: scale(1.01);
+  border-radius: 8px;
+}
+.task button{
+  margin-top: 12px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+
+  background-color:#e1eced ;
+
+  height: 30px;
+}
+.task button:hover{
+  background-color: grey;
+}
+.div-contents {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+ }
+ .div-contents p{
+   font-weight: 500;
+   font-size: 15px;
+ }
+.contain input{
+  margin-left: 200px;
+  margin-top: 3px;
+}
+
+.itask{
+  margin-top: 10px;
+  font-weight: 600;
+  font-size:20px;
+}
+#sub{
+  width: 50px;
+  margin-left: 10px;
+}
+
+#add{
+  width: 50px;
+  margin-right: 10px;
+  margin-left: 90px;
+}
